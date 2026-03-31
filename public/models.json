@@ -1,0 +1,101 @@
+[
+  {
+    "id": 1,
+    "name": "WriteFlow AI",
+    "description": "Advanced content generation tool for bloggers and marketing teams.",
+    "price": 29,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["SEO Optimization", "100+ Templates", "Plagiarism Checker"],
+    "icon": "src/assets/portfolio.png"
+  },
+  {
+    "id": 2,
+    "name": "Visionary Pro",
+    "description": "2000+ premium templates for social media, presentations, and marketing materials.",
+    "price": 199,
+    "period": "one-time",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": ["4K Export", "Commercial License", "Priority Rendering"],
+    "icon": "src/assets/design-tool.png"
+  },
+  {
+    "id": 3,
+    "name": "CodeWhisperer Plus",
+    "description": "Access millions of royalty-free photos, videos, and graphics for your projects.",
+    "price": 15,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": ["Syntax Suggestions", "Unit Test Generation", "VS Code Extension"],
+    "icon": "src/assets/operation.png"
+  },
+  {
+    "id": 4,
+    "name": "DataCrunch AI",
+    "description": "Enterprise-grade data analysis and visualization engine.",
+    "price": 499,
+    "period": "yearly",
+    "tag": "Featured",
+    "tagType": "featured",
+    "features": ["Predictive Analytics", "Custom Dashboards", "Big Data Support"],
+    "icon": "src/assets/social-media.png"
+  },
+  {
+    "id": 5,
+    "name": "ResumeGenius AI",
+    "description": "AI-powered resume builder with ATS optimization.",
+    "price": 49,
+    "period": "one-time",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["ATS Optimization", "Export to PDF", "Skill Suggestions"],
+    "icon": "src/assets/design-tool.png"
+  },
+  {
+    "id": 6,
+    "name": "VoiceSync AI",
+    "description": "Natural sounding text-to-speech with 50+ languages.",
+    "price": 120,
+    "period": "yearly",
+    "tag": "New",
+    "tagType": "new",
+    "features": ["Emotion Control", "Multiple Accents", "API Access"],
+    "icon": "src/assets/writing_2327400 1.png"
+  },
+  {
+    "id": 7,
+    "name": "AdMaster AI",
+    "description": "Automated social media ad creative and copy generator.",
+    "price": 35,
+    "period": "monthly",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": ["A/B Testing", "One-click Resize", "Campaign Tracking"],
+    "icon": "src/assets/design-tool.png"
+  },
+  {
+    "id": 8,
+    "name": "LegalEagle AI",
+    "description": "Quickly summarize long legal documents and contracts.",
+    "price": 89,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": ["Clause Extraction", "Risk Identification", "Multi-file Upload"],
+    "icon": "src/assets/writing_2327400 1.png"
+  }
+  ,  {
+    "id": 10,
+    "name": "WriteFlow AI",
+    "description": "Advanced content generation tool for bloggers and marketing teams.",
+    "price": 29,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["SEO Optimization", "100+ Templates", "Plagiarism Checker"],
+    "icon": "src/assets/portfolio.png"
+  }
+]
