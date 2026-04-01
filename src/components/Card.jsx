@@ -1,38 +1,43 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
-const Card = ({model ,setCarts,carts}) => {
+const Card = ({ model, setCarts, carts }) => {
+  const [isBuy, setIsBuy] = useState(false);
 
-const [isBuy,setIsBuy] = useState(false)
+  const handleBuy = () => {
+    setIsBuy(true);
+    setCarts([...carts , model])
+  };
 
-const handleBuy = () => {
-    setIsBuy(true)}
-    // setCarts([...carts , model])
 
-    return (
-        <div className='shadow-xl w-95 h-105.5 space-y-4 p-6 rounded-2xl'>
-<div>
-<img src={model.icon} alt="" />
+  return (
+    <div className="shadow-xl w-95 h-105.5 space-y-4 p-6 rounded-2xl">
+      <div>
+        <img src={model.icon} alt="" />
+      </div>
 
-</div>
-    
-<div>
-<h3 className='font-bold text-[24px]'>{model.name} </h3>
-<p className='text-[16px] text-[#627382]'> {model.description}</p>
+      <div>
+        <h3 className="font-bold text-[24px]">{model.name} </h3>
+        <p className="text-[16px] text-[#627382]"> {model.description}</p>
 
-<div className='items-center'><span className='font-bold text-[24px]'>{model.price}</span>/<span className='text-[#627382]'>{model.period}</span> </div>
+        <div className="items-center">
+          <span className="font-bold text-[24px]">${model.price}</span>/
+          <span className="text-[#627382]">{model.period}</span>{" "}
+        </div>
 
-<div className="items-center gap-8 text-sm text-zinc-600 pt-6 space-y-2 ">
- <div>✓ 50+ Frontier Models</div>
- <div>✓ No Usage Limits</div>
- <div>✓ Cancel Anytime</div>
-</div>
-<button onClick={handleBuy} className='btn btn-primary w-full rounded-full mt-3'>
-{isBuy ? "Purchase" : "Buy Now"}</button>
-
-</div>
-    
-</div>
-    );
+        <div className="items-center gap-8 text-sm text-zinc-600 pt-6 space-y-2 ">
+          <div>✓ 50+ Frontier Models</div>
+          <div>✓ No Usage Limits</div>
+          <div>✓ Cancel Anytime</div>
+        </div>
+        <button
+          onClick={handleBuy}
+          className="btn btn-primary w-full rounded-full mt-3"
+        >
+          {isBuy ? "Purchase" : "Buy Now"}
+        </button>
+      </div>
+    </div>
+  );
 };
 
 export default Card;

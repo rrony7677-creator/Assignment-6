@@ -39,7 +39,7 @@ return (
 </div>
 
 { activeTab === "products" && <Models modelPromise={modelPromise} carts ={carts} setCarts={setCarts}></Models>}
-{ activeTab === "cart" && <Carted></Carted>}
+{ activeTab === "cart" && <Carted carts={carts} setCarts={setCarts}></Carted>}
 
     </>
   )
