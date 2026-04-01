@@ -1,16 +1,19 @@
 import React from "react";
 import shoppigCart from "../assets/image/products/shopping-cart.png"
+import { toast } from "react-toastify";
 
 const Carted = ({ carts, setCarts }) => {
   const totalPrice = carts.reduce((sum, item) => sum + item.price, 0);
 
   const handlePay = () => {
     setCarts([]);
+    toast.success("Payment Successful")
   };
 
   const handleRemove = (item) => {
   // console.log("remove the item" ,item);
   const filter = carts.filter(c => c.id !== item.id)
+  toast.warning("Item deleted")
   // console.log(filter);
   setCarts(filter)
   }

@@ -6,7 +6,7 @@ const Models = ({ modelPromise, setCarts, carts }) => {
   // console.log(models);
 
   return (
-    <div className="my-22.5">
+    <div className="my-7.5 ">
       <div className="text-center mb-28.5">
         <h2 className="font-bold text-[48px] ">Premium Digital Tools</h2>
         <p className="text-[#627382]">
@@ -14,6 +14,8 @@ const Models = ({ modelPromise, setCarts, carts }) => {
           designed <br /> to boost your productivity and creativity.
         </p>
       </div>
+
+
 
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8  container mx-auto ">
         {models.map((model) => (
