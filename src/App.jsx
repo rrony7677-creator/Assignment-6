@@ -30,7 +30,7 @@ return (
 {/* name of each tab group should be unique */}
 
 
-{/* git push */}
+
 <Rating></Rating>
     <div className="text-center mb-28.5 mt-22.5">
         <h2 className="font-bold text-[48px] ">Premium Digital Tools</h2>
