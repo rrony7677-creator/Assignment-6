@@ -32,7 +32,13 @@ return (
 
 {/* git push */}
 <Rating></Rating>
-
+    <div className="text-center mb-28.5 mt-22.5">
+        <h2 className="font-bold text-[48px] ">Premium Digital Tools</h2>
+        <p className="text-[#627382]">
+          Choose from our curated collection of premium digital products
+          designed <br /> to boost your productivity and creativity.
+        </p>
+      </div>
 <div className="tabs tabs-box mt-22.5 justify-center bg-transparent">
   <input type="radio" name="my_tabs_1" 
   className="tab rounded-full w-40 font-bold "

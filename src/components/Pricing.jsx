@@ -4,8 +4,8 @@ const Pricing = () => {
 return (
 <div className='container mx-auto '>
     
-<div className='text-center mt-[90px] mb-[50px]'>
-<h1 className='text-[48px]'>Simple, Transparent Pricing</h1>
+<div className='text-center mt-22.5 mb-12.5'>
+<h1 className='text-[48px] font-bold'>Simple, Transparent Pricing</h1>
 <p className='text-[#627382]'>Choose the plan that fits your needs. Upgrade or downgrade anytime.</p>
 </div>
 
