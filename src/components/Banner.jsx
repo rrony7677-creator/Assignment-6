@@ -11,7 +11,7 @@ const Banner = () => {
           </div>
 
           <h1 className="text-4xl lg:text-5xl font-bold leading-tight tracking-tighter ">
-           Supercharge Your <br /> Digital Workflow
+           Supercharge Your <br /> <span className="text-blue-500">Digital Workflow</span>
     
           </h1>
 
