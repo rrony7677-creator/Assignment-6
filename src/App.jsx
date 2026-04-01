@@ -30,16 +30,17 @@ return (
 {/* name of each tab group should be unique */}
 
 
+{/* git push */}
 <Rating></Rating>
 
 <div className="tabs tabs-box mt-22.5 justify-center bg-transparent">
   <input type="radio" name="my_tabs_1" 
-  className="tab rounded-full w-40 "
+  className="tab rounded-full w-40 font-bold "
    aria-label="Products"  
    onClick={()=>setActiveTab("products")} defaultChecked />
 
   <input type="radio" name="my_tabs_1" 
-  className="tab rounded-full w-40 " 
+  className="tab rounded-full w-40 font-bold" 
   aria-label={`carts (${carts.length})`}
   onClick={()=>setActiveTab("cart")}/>
  
